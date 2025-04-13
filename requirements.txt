@@ -1,0 +1,8 @@
+# requirements.txt for yomitoku OCR project
+# 使用 Python 3.10+，推荐在 Anaconda 虚拟环境中运行
+# 若使用 GPU 可将 onnxruntime 替换为 onnxruntime-gpu（需 CUDA 环境）
+yomitoku
+onnxruntime==1.17.1
+numpy==1.26.4
+opencv-python
+Pillow

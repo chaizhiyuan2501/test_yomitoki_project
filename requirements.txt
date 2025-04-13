@@ -6,3 +6,12 @@ onnxruntime==1.17.1
 numpy==1.26.4
 opencv-python
 Pillow
+
+# Django + API
+django>=4.2
+djangorestframework>=3.14
+
+
+# 文件管理可选（图片存储相关）
+python-magic  # 识别上传文件类型
+

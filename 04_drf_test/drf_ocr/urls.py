@@ -19,6 +19,7 @@ from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('api/ocr/', include('ocr_app.urls')),  # 分段路由分发给 ocr_app
+    path("admin/", admin.site.urls),
+    path("api/ocr/", include("ocr_app.urls")),  # 分段路由分发给 ocr_app
+    path("api/guest/", include("guest.urls")),
 ]
